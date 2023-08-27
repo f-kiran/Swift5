@@ -15,17 +15,21 @@
  
  */
 // 1
-
+var characterName = "ftth"
+var weaponClassification = "String"
 // 2
-
+characterName += "^_^"
 // 3
-
+var currentMana = 1.0
 // 4
-
+var manaPercentage = String(currentMana/100)
 // 5
-
+var debugStats =   "\(characterName)\n\nPrefers: \(weaponClassification)\nCurrent Mana: \(manaPercentage)"
 // 6
-
+var questAccepted = false
+var canQuest = true
 // 7
-
+var questStatus = questAccepted && canQuest
 // 8
+debugStats.append(contentsOf: "\nStatus is \(questStatus)")
+print(debugStats)

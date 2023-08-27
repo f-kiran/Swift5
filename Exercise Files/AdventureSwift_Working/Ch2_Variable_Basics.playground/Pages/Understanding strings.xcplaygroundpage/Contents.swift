@@ -14,10 +14,14 @@
  
  */
 // Declaring strings
-
+var activeQuest:String = "Retrieving the Cart!"
+print(activeQuest)
 
 // Concatenation
+var questDiff = "Nightmare"
+var questInfo = activeQuest + " -> " + questDiff
 
+questInfo += "!"
 
 // String interpolation
-
+let questInfo_Interpolated = "I'm not sure you're ready for \(activeQuest)yet, it's \(questDiff) leval."

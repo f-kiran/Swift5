@@ -15,12 +15,14 @@
  
 */
 // Type inference
-
+var currentHealth = 90
 
 // Type annotation
-
+var charName:String
+charName = "13"
 
 // Type annotation + inference
-
+var maxHealth:Int = 100 // no need but it's possible
 
 // Multiple variables - type annotation shorthand
+var inventoryItems, equipmentSlots,  currentGold: Int
